@@ -1,4 +1,4 @@
-# How to Read This Repository
+# How To Read This Repository
 
 ## Recommended Reading Order
 
@@ -7,18 +7,35 @@ This repository is organized chronologically.
 Start from:
 
 ```text
-Day-01
+Month-01
+  └── Day-01
 ```
 
 and continue forward.
 
-The structure is designed to show the progression of learning over time.
+The structure is designed to show learning progression over time.
 
 ---
 
-## Understanding a Day Folder
+## Repository Structure
 
-Each day contains:
+```text
+Month-XX/
+│
+├── Day-XX/
+│   ├── SUMMARY.md
+│   └── Programs/
+```
+
+Months act as containers for learning days.
+
+Days contain the actual learning records.
+
+---
+
+## Understanding A Day Folder
+
+Each learning day contains:
 
 ```text
 Day-XX/
@@ -26,16 +43,21 @@ Day-XX/
 └── Programs/
 ```
 
+---
+
 ### SUMMARY.md
 
 The summary file contains:
 
-* Topics learned
-* Key concepts
-* Important takeaways
-* Navigation to relevant programs
+* Concepts learned
+* Key understandings
+* Doubts discussed
+* AI verification questions
+* Learning insights
+* Program references
+* End-of-day reflections
 
-This file acts as the index for that day.
+This file acts as the learning index for that day.
 
 ---
 
@@ -46,17 +68,67 @@ The Programs folder contains:
 * Educative demonstration programs
 * Practice implementations
 * Exercise solutions
-* Experiments related to the day's topics
+* Experiments
+* Personal explorations
 
-All implementation-specific explanations are documented directly within the source code as comments.
+Implementation details are documented directly within source code comments.
 
 ---
 
-## How to Navigate
+## Learning Workflow
+
+The repository follows an AI-assisted learning workflow.
+
+During learning:
+
+* Concepts are discussed
+* Doubts are resolved
+* Understanding is validated
+* Teach-back exercises are performed
+* Engineering intuition is developed
+
+At the end of a learning day:
+
+* A structured summary is generated
+* The summary is manually reviewed
+* Relevant programs are linked
+* Learning insights are preserved
+
+---
+
+## Documentation Workflow
+
+The documentation process is explained in:
+
+```text
+DOCUMENTATION_WORKFLOW.md
+```
+
+The prompt used for documentation generation can be found in:
+
+```text
+PROMPT_FOR_DOCUMENTATION.md
+```
+
+The summary format can be found in:
+
+```text
+SUMMARY_TEMPLATE.md
+```
+
+The learning assistant instructions can be found in:
+
+```text
+LEARNING_ASSISTANT_INSTRUCTIONS.md
+```
+
+---
+
+## How To Navigate
 
 If you want:
 
-### A high-level overview
+### High-Level Learning Overview
 
 Read:
 
@@ -64,28 +136,36 @@ Read:
 SUMMARY.md
 ```
 
-### Implementation details
+---
 
-Read the Java source files inside:
+### Code Implementations
+
+Read:
 
 ```text
 Programs/
 ```
 
-### Learning progression
+---
 
-Move through the folders in chronological order:
+### Learning Progression
+
+Move through the repository chronologically:
 
 ```text
-Day-01
-Day-02
-Day-03
-...
+Month-01
+  ├── Day-01
+  ├── Day-02
+  ├── Day-03
+
+Month-02
+  ├── Day-31
+  ├── Day-32
 ```
 
 ---
 
-## Notes About the Code
+## Notes About The Code
 
 The code in this repository is learning-oriented.
 
@@ -102,13 +182,15 @@ The objective is to preserve the learning process rather than present only final
 
 ---
 
-## Why This Structure?
+## Why This Structure Exists
 
 This approach allows me to:
 
 * Track daily progress
+* Preserve learning history
 * Revisit concepts efficiently
-* Review past learning decisions
+* Review past reasoning
+* Document engineering growth
 * Build a long-term learning archive
 
-The repository is intended to be a living record of continuous growth and learning.
+This repository is intended to be a living record of continuous learning and improvement.
