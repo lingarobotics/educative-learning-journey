@@ -24,12 +24,14 @@ Month-XX/
 │
 ├── Day-XX/
 │   ├── SUMMARY.md
-│   └── Programs/
+│   └── Programs/ (if applicable)
 ```
 
 Months act as containers for learning days.
 
 Days contain the actual learning records.
+
+Not every learning day contains program files. Some days focus primarily on concepts, debugging discussions, reasoning exercises, or engineering insights.
 
 ---
 
@@ -40,7 +42,7 @@ Each learning day contains:
 ```text
 Day-XX/
 ├── SUMMARY.md
-└── Programs/
+└── Programs/ (optional)
 ```
 
 ---
@@ -53,25 +55,30 @@ The summary file contains:
 * Key understandings
 * Doubts discussed
 * AI verification questions
+* Learning artifacts
+* Engineering intuitions
 * Learning insights
-* Program references
 * End-of-day reflections
 
-This file acts as the learning index for that day.
+This file acts as the primary learning index for that day.
 
 ---
 
-### Programs/
+### Programs/ (Optional)
 
-The Programs folder contains:
+The Programs folder may contain:
 
-* Educative demonstration programs
 * Practice implementations
 * Exercise solutions
 * Experiments
 * Personal explorations
+* Programs written or modified during learning
 
-Implementation details are documented directly within source code comments.
+Programs are included only when they contribute meaningful learning value.
+
+Course examples that were only discussed are documented within the summary rather than recreated solely for repository completeness.
+
+Implementation details are documented directly within source code comments when appropriate.
 
 ---
 
@@ -86,13 +93,15 @@ During learning:
 * Understanding is validated
 * Teach-back exercises are performed
 * Engineering intuition is developed
+* Debugging approaches are explored
 
 At the end of a learning day:
 
 * A structured summary is generated
 * The summary is manually reviewed
-* Relevant programs are linked
-* Learning insights are preserved
+* Learning artifacts are documented
+* Engineering insights are preserved
+* Relevant programs are linked when applicable
 
 ---
 
@@ -138,9 +147,21 @@ SUMMARY.md
 
 ---
 
-### Code Implementations
+### Learning Artifacts
 
 Read:
+
+```text
+SUMMARY.md
+```
+
+The summary documents programs, discussions, debugging cases, transcript discussions, exercises, and verification activities that contributed to learning.
+
+---
+
+### Code Implementations
+
+If available, read:
 
 ```text
 Programs/
@@ -165,15 +186,23 @@ Month-02
 
 ---
 
-## Notes About The Code
+## Notes About The Learning Artifacts
 
-The code in this repository is learning-oriented.
+Learning artifacts in this repository may include:
 
-Some files may:
+* Programs
+* Debugging discussions
+* Transcript analyses
+* AI verification exercises
+* Reasoning exercises
+* Engineering insights
+
+Some artifacts may:
 
 * Demonstrate a single concept
-* Contain exploratory experiments
-* Include beginner-level implementations
+* Explore a debugging process
+* Capture an important realization
+* Document a misconception and correction
 * Show incremental improvement over time
 
 This is intentional.
@@ -191,6 +220,7 @@ This approach allows me to:
 * Revisit concepts efficiently
 * Review past reasoning
 * Document engineering growth
+* Capture engineering intuition
 * Build a long-term learning archive
 
 This repository is intended to be a living record of continuous learning and improvement.

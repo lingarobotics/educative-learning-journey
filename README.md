@@ -6,10 +6,12 @@ This repository documents my day-by-day software engineering learning journey.
 
 The objective of this repository is not to showcase polished projects, but to preserve the actual learning process through:
 
-* Code implementations
-* Practice exercises
 * Concept exploration
+* Practice exercises
+* Code implementations (when learning requires them)
 * Daily learning summaries
+* Debugging discussions
+* Engineering insights
 * AI-assisted learning discussions
 * Engineering intuition development
 
@@ -22,7 +24,7 @@ The repository serves as a personal knowledge archive, revision resource, progre
 This learning journey focuses on developing:
 
 * Engineering intuition
-* System thinking
+* Systems thinking
 * Practical software understanding
 * Long-term retention
 * Problem-solving ability
@@ -48,6 +50,16 @@ Topics may include:
 
 As the journey progresses, additional technologies and topics may be added.
 
+Each day may contain:
+
+* Concepts learned
+* AI-assisted discussions
+* Doubts and clarifications
+* Verification questions
+* Engineering insights
+* Debugging experiences
+* Code implementations (when applicable)
+
 ---
 
 ## Repository Structure
@@ -57,16 +69,18 @@ Month-01/
 │
 ├── Day-01/
 │   ├── SUMMARY.md
-│   └── Programs/
+│   └── Programs/ (if applicable)
 │
 ├── Day-02/
 │   ├── SUMMARY.md
-│   └── Programs/
+│   └── Programs/ (if applicable)
 │
 └── Day-03/
     ├── SUMMARY.md
-    └── Programs/
+    └── Programs/ (if applicable)
 ```
+
+Programs are included only when they contribute meaningful learning value. Not every learning day requires code artifacts.
 
 ---
 
@@ -94,6 +108,10 @@ This repository prioritizes:
 * Progress over perfection
 * Engineering intuition over certificate collection
 
+The repository prioritizes preserving understanding and reasoning over reproducing course material.
+
+Only code that contributes meaningful learning value is retained.
+
 The code in this repository reflects my understanding at the time it was written.
 
 Earlier implementations may be less refined than later ones, which is an intentional part of the learning process.
@@ -120,12 +138,20 @@ All generated documentation is manually reviewed before being committed.
 
 The primary purpose of this repository is to maintain a structured record of continuous learning and skill development over time.
 
+The repository is designed to capture not only what was learned, but also:
+
+* Questions asked
+* Misconceptions corrected
+* Reasoning developed
+* Debugging experiences
+* Engineering insights gained
+
 Every day represents a step in that journey.
 
 ---
 
 ## Author
 
-Ramalingam Jayavelu
+**Ramalingam Jayavelu**
 
 Founder and Builder, LGC Systems

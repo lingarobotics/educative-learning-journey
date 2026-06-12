@@ -30,9 +30,16 @@ The concepts learned, doubts asked, and discussions documented below represent t
 
 Write the concept in your own words.
 
-### Programs Related
+### Related Artifacts
+
+May include:
 
 * Programs/FileName.java
+* Debugging Discussion
+* Exercise
+* Transcript Discussion
+* AI Verification
+* None
 
 ### Key Understanding
 
@@ -46,9 +53,16 @@ What clicked for you?
 
 Write the concept in your own words.
 
-### Programs Related
+### Related Artifacts
+
+May include:
 
 * Programs/FileName.java
+* Debugging Discussion
+* Exercise
+* Transcript Discussion
+* AI Verification
+* None
 
 ### Key Understanding
 
@@ -62,9 +76,16 @@ What clicked for you?
 
 Write the concept in your own words.
 
-### Programs Related
+### Related Artifacts
+
+May include:
 
 * Programs/FileName.java
+* Debugging Discussion
+* Exercise
+* Transcript Discussion
+* AI Verification
+* None
 
 ### Key Understanding
 
@@ -168,9 +189,17 @@ Final clarified understanding.
 
 ---
 
-# Programs Implemented
+# Learning Artifacts
 
-## Program 01
+Document anything that contributed meaningful learning value.
+
+---
+
+## Artifact 01
+
+Type:
+
+Program
 
 File:
 
@@ -187,20 +216,59 @@ Concepts Used:
 
 ---
 
-## Program 02
+## Artifact 02
 
-File:
+Type:
 
-Programs/FileName.java
+Debugging Case
+
+Title:
+
+Debugging Topic
 
 Purpose:
 
-What the program demonstrates.
+What issue was investigated.
 
 Concepts Used:
 
 * Concept A
 * Concept B
+
+---
+
+## Artifact 03
+
+Type:
+
+Discussion
+
+Title:
+
+Discussion Topic
+
+Purpose:
+
+What understanding was developed.
+
+Concepts Used:
+
+* Concept A
+* Concept B
+
+---
+
+# Engineering Intuition Developed
+
+## Insight 01
+
+Describe an engineering idea, principle, or mental model that clicked today.
+
+---
+
+## Insight 02
+
+Describe an assumption that was challenged, corrected, or refined.
 
 ---
 
@@ -266,10 +334,11 @@ Write 3–10 lines describing:
 * Concept B
 * Concept C
 
-## Programs
+## Learning Artifacts
 
-* Programs/FileName1.java
-* Programs/FileName2.java
+* Programs/FileName.java
+* Debugging Case
+* Discussion Topic
 
 ## Doubts Discussed
 
